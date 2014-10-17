@@ -7,10 +7,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>decl-acl</module>
         <module>se6-flow-oper</module>
         <module>se6-io</module>
         <module>se6-nested</module>
         <module>se6-threads</module>
+        <module>generics</module>
+        <module>collections</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
