@@ -1,0 +1,3 @@
+/**
+ * Static member class demonstration 
+ */
