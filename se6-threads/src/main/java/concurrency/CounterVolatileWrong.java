@@ -1,7 +1,7 @@
 package concurrency;
 
 /**
- * @author prekezes.
+ * WAH
  */
 public class CounterVolatileWrong {
 
