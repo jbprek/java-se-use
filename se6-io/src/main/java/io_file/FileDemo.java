@@ -3,10 +3,30 @@ package io_file;
 import java.io.File;
 import java.io.IOException;
 
+import static java.lang.System.out;
+
 /**
  * java.io.File usage
  */
 public class FileDemo {
+
+    public static void main(String[] args) {
+        out.print("File.separatorChar->");
+        out.println(File.separatorChar);
+        out.print("File.pathSeparatorChar->");
+        out.println(File.pathSeparatorChar);
+        separatorDemo();
+    }
+
+    /**
+     * Use of File
+     */
+    public static void separatorDemo() {
+        out.print("File.separatorChar->");
+        out.println(File.separatorChar);
+        out.print("File.pathSeparatorChar->");
+        out.println(File.pathSeparatorChar);
+    }
 
     /**
      * TIP get reference to current working dir
